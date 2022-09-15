@@ -1,1 +1,1 @@
-# Show mobile menu from left side
+# Show mobile menu from left side like contacts in google.com or mobile menu in rozetka.ua

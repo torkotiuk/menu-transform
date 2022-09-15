@@ -14,7 +14,6 @@
   <body>
     <header class="header">
       <div class="container">
-        <span>Header</span>
         <!-- burger button -->
         <button type="button" class="menu-button" data-menu-button>
           <svg width="40" height="40" aria-label="Mobile menu switch">
@@ -29,6 +28,16 @@
           </svg>
         </button>
         <!--  -->
+
+        <a
+          class="header__link"
+          target="_blank"
+          href="https://github.com/torkotiuk/menu-transform"
+        >
+          <svg width="20" height="25">
+            <use href="./assets/images/sprite.svg#icon-github"></use>
+          </svg>
+        </a>
 
         <!-- mob-menu-container -->
         <div class="mob-menu-container" data-menu>
@@ -48,7 +57,11 @@
       </section>
     </main>
 
-    <footer><div class="container">Footer</div></footer>
+    <footer>
+      <div class="container">
+        <span>Footer</span>
+      </div>
+    </footer>
 
     <script src="./js/menu.js"></script>
   </body>

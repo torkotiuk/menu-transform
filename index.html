@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - transform</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <span>Header</span>
+        <!-- burger button -->
+        <button type="button" class="menu-button" data-menu-button>
+          <svg width="40" height="40" aria-label="Mobile menu switch">
+            <use
+              class="icon-menu"
+              href="./assets/images/sprite.svg#icon-menu"
+            ></use>
+            <use
+              class="icon-close"
+              href="./assets/images/sprite.svg#icon-close"
+            ></use>
+          </svg>
+        </button>
+        <!--  -->
+
+        <!-- mob-menu-container -->
+        <div class="mob-menu-container" data-menu>
+          <div class="mob-menu-content">
+            <button data-close-button>X</button>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1>Section 1 title</h1>
+        </div>
+      </section>
+    </main>
+
+    <footer><div class="container">Footer</div></footer>
+
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
